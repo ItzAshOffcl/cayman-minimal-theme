@@ -196,7 +196,21 @@ a {
     padding: 3px 5px;
     vertical-align: middle;
   }
-
+  // Author Image 
+  author-image-container {
+    display: flex;
+    align-items: center;
+    justify-contents: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;  
+  }
+  author-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
   img {
     max-width: 100%;
   }

@@ -390,3 +390,69 @@ a {
 .site-footer-credits {
   color: $blockquote-text-color;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+
+    a {
+        color: #bb86fc;
+    }
+
+    /* Code blocks in dark mode */
+    .highlight {
+        background-color: #2d2d2d;
+        color: #f8f8f2;
+    }
+
+    .highlight .cm,
+    .highlight .c1,
+    .highlight .cs,
+    .highlight .c,
+    .highlight .cd {
+        color: #757575;
+        font-style: italic;
+    }
+
+    .highlight .kc,
+    .highlight .kd,
+    .highlight .kn,
+    .highlight .kp,
+    .highlight .kr,
+    .highlight .kt,
+    .highlight .k,
+    .highlight .kv {
+        color: #c792ea;
+        font-weight: bold;
+    }
+
+    .highlight .m,
+    .highlight .mb,
+    .highlight .mf,
+    .highlight .mh,
+    .highlight .il,
+    .highlight .mi,
+    .highlight .mo,
+    .highlight .mx {
+        color: #f78c6c;
+    }
+
+    .highlight .s,
+    .highlight .sb,
+    .highlight .sc,
+    .highlight .sd,
+    .highlight .s2,
+    .highlight .se,
+    .highlight .sh,
+    .highlight .si,
+    .highlight .sx,
+    .highlight .sr,
+    .highlight .s1,
+    .highlight .ss {
+        color: #ecc48d;
+    }
+
+    /* Add more elements as needed for dark mode */
+}

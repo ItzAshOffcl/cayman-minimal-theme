@@ -450,3 +450,46 @@ a {
 
     /* Add more elements as needed for dark mode */
 }
+/* Container holding all icons and text */
+.contact-container {
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+/* Text before the icons */
+.contact-text {
+    font-size: 0.875rem; /* Corresponds to text-sm in Tailwind */
+    text-align: left;
+}
+
+/* Container for each icon */
+.icon-container {
+    width: 2rem; /* Corresponds to w-8 in Tailwind */
+    height: 2rem; /* Corresponds to h-8 in Tailwind */
+    background-color: rgba(0, 122, 255, 0.5); /* bg-primary/50 */
+    border-radius: 0.375rem; /* Rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+/* Hover effect for the icon container */
+.icon-container:hover {
+    background-color: rgba(0, 122, 255, 0.2); /* Slightly lighter background on hover */
+}
+
+/* Common styles for all icons */
+.icon {
+    width: 1.5rem; /* Corresponds to h-6/w-6 in Tailwind */
+    height: 1.5rem;
+    color: #e8eaed; /* Icon color */
+}
+
+/* Example: Specific styles for GitHub icon */
+.github-icon {
+    fill: #dee4ea; /* GitHub icon color */
+}
